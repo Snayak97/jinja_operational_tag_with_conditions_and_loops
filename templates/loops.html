@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loops</title>
+</head>
+<body>
+     <center>
+        <h1>
+            this is rendering from LOOPS jinja operational tag
+        </h1>
+        <!-- <h1>
+            {% for i in name %}
+                <h1>{{i}}</h1>
+            {% endfor %}
+        </h1> -->
+        <h1>
+            {% if name %}
+                {% for i in name %}
+                <h1>{{i}}</h1>
+                {% endfor %}
+            {% else %}
+                <h1>data empty</h1>
+            {% endif %}
+
+        </h1>
+    </center>
+</body>
+</html>

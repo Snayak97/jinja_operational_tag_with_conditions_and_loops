@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>condition</title>
+</head>
+<body>
+     <!-- <center>
+        <h1>
+            this is rendering from jinja operational tag
+        </h1>
+        <h1>
+            {% if a > b %}
+                <h1>this is if block </h1>
+                <h1>a is geterthen b</h1>
+            {% endif %}
+        </h1>
+    </center> --> -->
+    <!-- <center>
+        <h1>
+            this is rendering from jinja operational tag
+        </h1>
+        <h1>
+            {% if a > b %}
+                <h1>this is if block </h1>
+                <h1>{{a}} is geterthen {{b}}</h1>
+            {% else %}
+                <h1>this is else block </h1>
+                <h1>{{b}} is geterthen {{a}}</h1>
+            
+            {% endif %}
+        </h1>
+    </center> -->
+    <center>
+        <h1>
+            this is rendering from jinja operational tag
+        </h1>
+        <h1>
+            {% if a > b and a > c %}
+                <h1>this is if block </h1>
+                <h1>a is geterthen </h1>
+            {% elif b > c %}
+                <h1>this is elif block </h1>
+                <h1>b is geterthen </h1>
+            {% else %}
+            <h1>this is else block </h1>
+            <h1>c is geterthen</h1>
+            {% endif %}
+        </h1>
+    </center>
+
+    <!-- <center>
+        <h1>
+            this is rendering from jinja operational tag
+        </h1>
+        <h1>
+            {% if a > b %}
+                {% if  a > c %}
+                    <h1>this is if if block </h1>
+                    <h1>a is max </h1>
+                {% else %}
+                    <h1>this is if  else block </h1>
+                    <h1>c is max </h1>
+                {% endif %}
+            {% else %}
+                {% if b > c %}
+                    <h1>this is else if block </h1>
+                    <h1>b is max</h1>
+                {% else %}
+                    <h1>this is else else block </h1>
+                    <h1>c is max</h1>
+                {% endif %}
+            {% endif %}
+        </h1>
+    </center> -->
+</body>
+</html>
